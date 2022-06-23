@@ -20,7 +20,7 @@ export default function Music() {
 
           <h1 data-aos="zoom-out" className='title'>NTV MUSIC</h1>
 
-          <div data-aos="zoom-out-down" className="alert alert-success">
+          <div data-aos="zoom-out-down" className="alert alert-primary">
            Onlayn Cheksiz Radioni Eshitish Uchun "PLAY" Tugmasini Bosing! 
           </div>
 

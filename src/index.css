@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    background: url(./Images/bg.png) no-repeat;
-    background-size: cover;
-   background-attachment: fixed;
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 :root {
@@ -217,7 +217,6 @@ main .container .btn-cnt {
 }
 
 #movies h2 {
-
     color: var(--white);
     margin: 40px 0;
     text-align: center;
@@ -240,19 +239,12 @@ main .container .btn-cnt {
     backdrop-filter: blur(10px);
 }
 
-#movies .mv:hover h3 {
-    color: var(--white);
-    -webkit-text-stroke: 0px transparent;
-}
-
-
 #movies .mv h3 {
-    color: transparent;
+    color: var(--white);
     font-family: fantasy;
     letter-spacing: 5px;
-    -webkit-text-stroke: 1px var(--white);
+    font-weight: bold;
 }
-
 
 /* live Music Section */
 
@@ -404,6 +396,7 @@ footer{
 
     main h1 {
         font-size: 32px !important;
+        font-weight: bold;
     }
 
     main .btn-cnt {
