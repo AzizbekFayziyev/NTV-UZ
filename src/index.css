@@ -396,10 +396,13 @@ footer {
     }
 
     nav .logo {
-        width: 35px;
-        height: 30px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    nav .logo img{
+        width: 55px;
+        height: 50px;
     }
 
     nav .menuBtn {
