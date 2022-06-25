@@ -366,7 +366,7 @@ main .container .btn-cnt {
     color: var(--white);
     font-family: fantasy;
     letter-spacing: 6px;
-    margin-top: 20px;
+    margin-top: 28px;
 }
 
 .contact-item i{
@@ -386,6 +386,10 @@ footer{
 /* RESPONSIVE */
 
 @media (max-width: 940px) {
+
+    .title{
+        font-size: 35px !important;
+    }
 
     nav .logo {
         margin-left: 0;
@@ -473,6 +477,11 @@ footer{
 }
 
 @media (max-width: 640px) {
+
+    .title{
+        font-size: 31px !important;
+    }
+
     #movies .tv {
         width: 350px;
         height: 300px;
